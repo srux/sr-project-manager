@@ -19,4 +19,44 @@ form button {
 form h5 {
   margin: 1em 0em;
 }
+
+.handle {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.notes {
+  font-size: .6em;
+  line-height: 1.2;
+}
+
+.notifications li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1em 0em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-content.notifications {
+  padding: 0;
+}
+
+.notifications ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
 /*# sourceMappingURL=App.css.map */

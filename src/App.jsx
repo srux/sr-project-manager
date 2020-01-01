@@ -14,7 +14,7 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
-      <h1>Project Manager</h1>
+      <h1 className="center">BrainStormer</h1>
       <Navbar/>
       <Switch>
         <Route exact path ='/' component={Dashboard}/>

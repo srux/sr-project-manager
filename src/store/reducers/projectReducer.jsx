@@ -1,8 +1,5 @@
 const initState = {
-    projects: [
-        {id:'1',title:'haha',content:'yada'},
-        {id:'2',title:'blah',content:'yadauada'},
-    ]
+    projects: []
 }
 
 const projectReducer = (state = initState, action) => {
