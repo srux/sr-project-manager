@@ -6,7 +6,7 @@ import { firestoreConnect } from 'react-redux-firebase';
 import { compose } from 'redux';
 import { auth } from 'firebase';
 import { Redirect } from 'react-router-dom';
-import Draggable from 'react-draggable';
+
 
  class Dashboard extends Component {
     constructor(props){
